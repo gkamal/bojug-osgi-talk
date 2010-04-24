@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.tenxperts</groupId>
+	<artifactId>springdm-dependencies</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0-SNAPSHOT</version>
+	<name>spring dm dependencies</name>
+	<repositories>
+	  <repository>
+    <id>com.springsource.repository.bundles.release</id>
+    <name>SpringSource Enterprise Bundle Repository - SpringSource Bundle Releases</name>
+    <url>http://repository.springsource.com/maven/bundles/release</url>
+  </repository>
+
+  <repository>
+      <id>com.springsource.repository.bundles.external</id>
+      <name>SpringSource Enterprise Bundle Repository - External Bundle Releases</name>
+      <url>http://repository.springsource.com/maven/bundles/external</url>
+  </repository>
+
+  <repository>
+      <id>com.springsource.repository.libraries.release</id>
+      <name>SpringSource Enterprise Bundle Repository - SpringSource Library Releases</name>
+      <url>http://repository.springsource.com/maven/libraries/release</url>
+  </repository>
+
+  <repository>
+      <id>com.springsource.repository.libraries.external</id>
+      <name>SpringSource Enterprise Bundle Repository - External Library Releases</name>
+      <url>http://repository.springsource.com/maven/libraries/external</url>
+  </repository>
+
+	</repositories>
+	<dependencies>
+	    <dependency>
+        <groupId>org.springframework.osgi</groupId>
+        <artifactId>org.springframework.osgi-library</artifactId>
+        <type>libd</type>
+        <version>1.1.2.B</version>
+      </dependency>
+	</dependencies>
+</project>
+	
