@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>NestedIOException</Summary><SampleLogOutput><![CDATA[NestedIOException]]></SampleLogOutput><RegExpPattern><![CDATA[NestedIOException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Subclass of IOException that properly handles a root cause,
+ exposing the root cause just like NestedChecked/RuntimeException does.
+
+ <p>The similarity between this class and the NestedChecked/RuntimeException
+ class is unavoidable, as this class needs to derive from IOException
+ and cannot derive from NestedCheckedException.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

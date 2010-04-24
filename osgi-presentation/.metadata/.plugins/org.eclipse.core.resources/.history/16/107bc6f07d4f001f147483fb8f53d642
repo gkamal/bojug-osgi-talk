@@ -1,0 +1,11 @@
+package order;
+
+public class Receipt {
+	Long orderId;
+	double price;
+
+	public Receipt(Long orderId, double d) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

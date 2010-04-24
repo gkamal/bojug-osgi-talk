@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>No log4j configuration available, make a log4j.properties file available</Summary><AuthorTermsAccepted>true</AuthorTermsAccepted><SampleLogOutput><![CDATA[log4j:WARN No appenders could be found for logger (org.springframework.context.support.ClassPathXmlApplicationContext).
+log4j:WARN Please initialize the log4j system properly.]]></SampleLogOutput><RegExpPattern><![CDATA[log4j:WARN No appenders could be found for logger \((.*)\).
+log4j:WARN Please initialize the log4j system properly.]]></RegExpPattern><ProblemDetailHtml><![CDATA[log4j is a logging library that needs to be configured appropriately before other libraries like Spring can use it. Configuration can be done in various ways, for example by using a .properties file. The class $1 uses log4j (directly or indirectly), but log4j didn't detect a .properties file and wasn't configured using any of the other possible options.	]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[The simplest way to configure log4j is by using the <code>BasicConfigurator</code> class. By calling the code displayed below before any other code you execute, log4j will be configured properly, using a set of defaults.
+
+One of the advantages of log4j is its flexibility. You can configure log messages from certain subsystems to only appear if they're above a certain level (WARN for example). In general it's best to configure log4j through a .properties file to be able to quickly change the logging level. Simply put a log4j.properties file in the root of your classpath. The log4j.properties file should contain at least root logger and one appender (to which the log output can be appended). The following is such a basic logging configuration file:
+
+<pre>
+    log4j.rootLogger=INFO, sysout
+    log4j.appender.sysout=org.apache.log4j.ConsoleAppender
+    log4j.appender.sysout.layout=org.apache.log4j.PatternLayout
+    log4j.appender.A1.layout.ConversionPattern=%d [%t] %-5p %c - %m%n
+</pre>]]></SolutionDetailHtml><AdditionalResourcesDetailHtml><![CDATA[<ul>
+<li>The configuration section in the <a href="http://logging.apache.org/log4j/1.2/manual.html">Short Introduction to log4j</a></li>
+</ul>]]></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

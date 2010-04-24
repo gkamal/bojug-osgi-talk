@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>NestedServletException</Summary><SampleLogOutput><![CDATA[NestedServletException]]></SampleLogOutput><RegExpPattern><![CDATA[NestedServletException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Subclass of ServletException that properly handles a root cause in terms
+ of message and stacktrace, just like NestedChecked/RuntimeException does.
+ Note that the plain ServletException doesn't expose its root cause at all,
+ neither in the exception message nor in printed stack traces!
+
+ <p>The similarity between this class and the NestedChecked/RuntimeException
+ class is unavoidable, as this class needs to derive from ServletException
+ and cannot derive from NestedCheckedException.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

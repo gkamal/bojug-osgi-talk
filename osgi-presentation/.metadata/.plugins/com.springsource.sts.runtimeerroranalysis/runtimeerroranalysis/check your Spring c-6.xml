@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>check your Spring context file location</Summary><AuthorTermsAccepted>true</AuthorTermsAccepted><SampleLogOutput><![CDATA[2008. 3. 20 ?? 2:52:10 org.springframework.test.context.TestContextManager retrieveTestExecutionListeners
+??: @TestExecutionListeners is not present for class [class member.dao.MemberDAOTest]: using defaults.
+2008. 3. 20 ?? 2:52:10 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+??: Loading XML bean definitions from class path resource [member/dao/MemberDAOTest-context.xml]
+2008. 3. 20 ?? 2:52:10 org.springframework.test.context.TestContextManager prepareTestInstance
+??: Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1e51060] to prepare test instance [member.dao.MemberDAOTest@19616c7]
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [member/dao/MemberDAOTest-context.xml]; nested exception is java.io.FileNotFoundException: class path resource [member/dao/MemberDAOTest-context.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:335)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:296)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:212)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:93)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:44)
+	at org.springframework.test.context.TestContext.buildApplicationContext(TestContext.java:198)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:233)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:126)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:85)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:277)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:95)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.invokeTestMethod(SpringJUnit4ClassRunner.java:139)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:51)
+	at org.junit.internal.runners.JUnit4ClassRunner$1.run(JUnit4ClassRunner.java:44)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:26)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:36)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:42)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:38)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:673)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:386)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:196)
+Caused by: java.io.FileNotFoundException: class path resource [member/dao/MemberDAOTest-context.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:142)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:322)
+	... 25 more]]></SampleLogOutput><RegExpPattern><![CDATA[Caused by: java.io.FileNotFoundException: class path resource [(X.)-context.xml]]]></RegExpPattern><ProblemDetailHtml><![CDATA[@ContextConfiguration can not found spring context file.
+So, No beans can be created or auto wired to any object.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Just check your spring context location and if it doesn't exist, create it.
+If the spring context file's name is not same as test class's name plus -context.xml, 
+then you must specify the name of the context file to @ContextConfiguration's locations attribute.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml><![CDATA[<li> <a href="http://static.springframework.org/spring/docs/2.5.x/reference/testing.html#testcontext-ctx-management">http://static.springframework.org/spring/docs/2.5.x/reference/testing.html#testcontext-ctx-management&lt;/a>]]></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

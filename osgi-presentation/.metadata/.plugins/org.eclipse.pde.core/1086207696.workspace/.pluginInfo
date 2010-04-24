@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="5" class="order.internal.Activator" localization="OSGI-INF/l10n/bundle" name="Order" project="order"/>
+	<bundle bundleID="6" class="inventory.internal.Activator" localization="OSGI-INF/l10n/bundle" name="Inventory" project="inventory"/>
+	<bundle bundleID="7" class="batchprocessor.internal.Activator" localization="OSGI-INF/l10n/bundle" name="BatchProcessor" project="BatchProcessor"/>
+	<bundle bundleID="4" class="helloosgi.Activator" localization="OSGI-INF/l10n/bundle" name="HelloOsgi" project="HelloOsgi"/>
+</map>

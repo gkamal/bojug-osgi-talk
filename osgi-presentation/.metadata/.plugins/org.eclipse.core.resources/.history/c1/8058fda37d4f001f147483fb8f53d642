@@ -1,0 +1,8 @@
+package order.internal;
+
+public class Order {
+	Long id;
+	Long itemId;
+	int quantity;
+	
+}

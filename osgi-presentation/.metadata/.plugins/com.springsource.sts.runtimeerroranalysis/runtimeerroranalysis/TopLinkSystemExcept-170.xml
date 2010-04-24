@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>TopLinkSystemException</Summary><SampleLogOutput><![CDATA[TopLinkSystemException]]></SampleLogOutput><RegExpPattern><![CDATA[TopLinkSystemException]]></RegExpPattern><ProblemDetailHtml><![CDATA[TopLink-specific subclass of UncategorizedDataAccessException,
+ for TopLink system errors that do not match any concrete
+ <code>org.springframework.dao</code> exceptions.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

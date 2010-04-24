@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>NullValueInNestedPathException</Summary><SampleLogOutput><![CDATA[NullValueInNestedPathException]]></SampleLogOutput><RegExpPattern><![CDATA[NullValueInNestedPathException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Exception thrown when navigation of a valid nested property
+ path encounters a NullPointerException.
+
+ <p>For example, navigating "spouse.age" could fail because the
+ spouse property of the target object has a null value.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

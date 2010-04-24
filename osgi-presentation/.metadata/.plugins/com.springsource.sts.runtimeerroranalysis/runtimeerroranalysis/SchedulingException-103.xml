@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>SchedulingException</Summary><SampleLogOutput><![CDATA[SchedulingException]]></SampleLogOutput><RegExpPattern><![CDATA[SchedulingException]]></RegExpPattern><ProblemDetailHtml><![CDATA[General exception to be thrown on scheduling failures,
+ such as the scheduler already having shut down.
+ Unchecked since scheduling failures are usually fatal.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

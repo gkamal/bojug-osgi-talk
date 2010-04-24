@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>BeanInitializationException</Summary><SampleLogOutput><![CDATA[BeanInitializationException]]></SampleLogOutput><RegExpPattern><![CDATA[BeanInitializationException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Exception that a bean implementation is suggested to throw if its own
+ factory-aware initialization code fails. BeansExceptions thrown by
+ bean factory methods themselves should simply be propagated as-is.
+
+ <p>Note that non-factory-aware initialization methods like afterPropertiesSet()
+ or a custom "init-method" can throw any exception.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

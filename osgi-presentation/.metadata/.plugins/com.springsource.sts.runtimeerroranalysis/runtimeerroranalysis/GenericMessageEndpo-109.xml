@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>GenericMessageEndpointFactory.InternalResourceException</Summary><SampleLogOutput><![CDATA[GenericMessageEndpointFactory.InternalResourceException]]></SampleLogOutput><RegExpPattern><![CDATA[GenericMessageEndpointFactory.InternalResourceException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Internal exception thrown when a ResourceExeption has been encountered
+ during the endpoint invocation.
+ <p>Will only be used if the ResourceAdapter does not invoke the
+ endpoint's <code>beforeDelivery</code> and <code>afterDelivery</code>
+ directly, leavng it up to the concrete endpoint to apply those -
+ and to handle any ResourceExceptions thrown from them.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

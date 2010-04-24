@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>RemoteInvocationFailureException</Summary><SampleLogOutput><![CDATA[RemoteInvocationFailureException]]></SampleLogOutput><RegExpPattern><![CDATA[RemoteInvocationFailureException]]></RegExpPattern><ProblemDetailHtml><![CDATA[RemoteAccessException subclass to be thrown when the execution
+ of the target method failed on the server side, for example
+ when a method was not found on the target object.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

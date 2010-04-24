@@ -1,0 +1,5 @@
+package inventory;
+
+public interface InventoryService {
+	Item findItem(Long itemId);
+}

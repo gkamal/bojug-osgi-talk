@@ -1,0 +1,6 @@
+package order;
+
+public interface OrderService {
+	Long placeOrder(Long itemId,Long qty);
+	void cancelOrder(Long orderId);
+}

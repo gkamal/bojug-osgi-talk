@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>Interfaces cannot be instantiated. Specify a concrete class as the type of the bean definition</Summary><AuthorTermsAccepted>true</AuthorTermsAccepted><SampleLogOutput><![CDATA[Exception in thread "main" org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.springsource.example.Service#0' defined in class path resource [com/springsource/example/context.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.springsource.example.Service]: Specified class is an interface
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:917)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:873)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory$1.run(AbstractAutowireCapableBeanFactory.java:485)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:455)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:251)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:169)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:248)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:170)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:735)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:369)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:122)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:66)
+	at com.springsource.example.Main.main(Main.java:8)
+Caused by: org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.springsource.example.Service]: Specified class is an interface
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:51)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:911)
+	... 15 more]]></SampleLogOutput><RegExpPattern><![CDATA[Exception in thread ".*" org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(.*)' defined in class path resource \[(.*)\]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class \[(.*)\]: Specified class is an interface]]></RegExpPattern><ProblemDetailHtml><![CDATA[In Spring, you configure bean definitions. Bean definitions represent instances in the object graph that you are wiring up. Instances can only be created of concrete classes. In configuration file '$2', you've configured an interface instead of a concrete class for the bean definition with name $1 (note that if you haven't given the bean a name or id a Spring-generated bean name turns up here).]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Open the file $2 and look for the bean named $1 (again, note that the bean might have gotten a uniquely generated bean name, if you haven't given it a name or id yourself). The type that has been defined for this bean probably is an interface. Interfaces cannot be instantiated. Therefore, change class attribute into a concrete class.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml><![CDATA[<ul>
+<li>Section 3 of the <a href="http://static.springframework.org/spring/docs/2.5.x/reference/beans.html#beans-definition">Spring reference manual</a></li>
+</ul>]]></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

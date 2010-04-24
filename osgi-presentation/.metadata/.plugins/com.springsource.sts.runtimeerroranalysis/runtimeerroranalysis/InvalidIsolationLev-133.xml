@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>InvalidIsolationLevelException</Summary><SampleLogOutput><![CDATA[InvalidIsolationLevelException]]></SampleLogOutput><RegExpPattern><![CDATA[InvalidIsolationLevelException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Exception that gets thrown when an invalid isolation level is specified,
+ i.e. an isolation level that the transaction manager implementation
+ doesn't support.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

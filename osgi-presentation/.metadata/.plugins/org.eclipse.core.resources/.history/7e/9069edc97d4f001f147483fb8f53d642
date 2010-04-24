@@ -1,0 +1,17 @@
+package order.internal;
+
+public class Order {
+
+	private static long sequence = 0;
+	private Long id;
+	private Long itemId;
+	private int quantity;
+
+	
+	public Order(Long itemId, Long qty) {
+		this.id = Order.sequence++;
+		this.itemId = itemId;
+	}
+
+
+}

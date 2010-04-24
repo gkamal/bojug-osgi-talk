@@ -1,0 +1,26 @@
+package order.internal;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import order.OrderService;
+import order.Receipt;
+
+public class OrderServiceImpl implements OrderService {
+
+	Map<Long,Order> orders = new HashMap<Long, Order>();
+	
+	@Override
+	public void cancelOrder(Long orderId) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Receipt placeOrder(Long itemId, Long qty) {
+		Order order = new Order(itemId,qty);
+		orders.put(order.getId(),order);
+		return null;
+	}
+
+}

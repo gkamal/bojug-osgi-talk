@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>PessimisticLockingFailureException</Summary><SampleLogOutput><![CDATA[PessimisticLockingFailureException]]></SampleLogOutput><RegExpPattern><![CDATA[PessimisticLockingFailureException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Exception thrown on a pessimistic locking violation.
+ Thrown by Spring's SQLException translation mechanism
+ if a corresponding database error is encountered.
+
+ <p>Serves as superclass for more specific exceptions, like
+ CannotAcquireLockException and DeadlockLoserDataAccessException.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

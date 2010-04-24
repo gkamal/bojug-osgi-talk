@@ -1,0 +1,5 @@
+INDEX VERSION 1.126+/home/kamal/workspaces/osgi-presentation/.metadata/.plugins/org.eclipse.jdt.core
+425594888.index
+184053427.index
+1949528773.index
+63802425.index

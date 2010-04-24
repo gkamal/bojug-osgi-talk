@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>MetaDataAccessException</Summary><SampleLogOutput><![CDATA[MetaDataAccessException]]></SampleLogOutput><RegExpPattern><![CDATA[MetaDataAccessException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Exception indicating that something went wrong during JDBC metadata lookup.
+
+ <p>This is a checked exception since we want it to be caught, logged and
+ handled rather than cause the application to fail. Failure to read JDBC
+ metadata is usually not a fatal problem.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

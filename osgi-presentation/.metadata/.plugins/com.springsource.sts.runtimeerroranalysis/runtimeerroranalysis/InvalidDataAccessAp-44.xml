@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>InvalidDataAccessApiUsageException</Summary><SampleLogOutput><![CDATA[InvalidDataAccessApiUsageException]]></SampleLogOutput><RegExpPattern><![CDATA[InvalidDataAccessApiUsageException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Exception thrown on incorrect usage of the API, such as failing to
+ "compile" a query object that needed compilation before execution.
+
+ <p>This represents a problem in our Java data access framework,
+ not the underlying data access infrastructure.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

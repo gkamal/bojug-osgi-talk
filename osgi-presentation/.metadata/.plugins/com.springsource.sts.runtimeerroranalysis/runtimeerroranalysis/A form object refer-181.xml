@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>A form object referenced by the view is not in the Model.  Add this object to the Model or check your view for a typo.</Summary><SampleLogOutput><![CDATA[ERROR: org.springframework.web.servlet.tags.form.InputTag - Neither BindingResult nor plain target object for bean name 'hotelSearchCriteria' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'hotelSearchCriteria' available as request attribute]]></SampleLogOutput><RegExpPattern><![CDATA[Neither BindingResult nor plain target object for bean name '(.*)' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name '(.*)' available as request attribute]]></RegExpPattern><ProblemDetailHtml><![CDATA[<p>The $1 attribute is not available in the view to be rendered.</p>
+<p>This often occurs when displaying a form for the first time.  The form backing object must be available to the view in order for the input elements to render form values.</p>]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[<p>Check that $1 is spelled correctly in your view template.</p>
+
+<p>Add $1 to the model or binding result.  There are serveral ways to do this:</p>
+<ol>
+	<li>In the handler method of your controller, add a Model method argument.  Within the method body; add your form object to the Model.</li>
+	<li>Alternatively, if your form needs to be prepopulated with values, declare your form object as an argument to your handler method and it will be added to the Model automatically.</li>
+</ol>]]></SolutionDetailHtml><AdditionalResourcesDetailHtml><![CDATA[<ul>
+	<li><a href="http://static.springframework.org/spring/docs/2.5.x/reference/mvc.html#mvc-formtaglib">Using Spring's form tag library</a></li>
+</ul>]]></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>BindException</Summary><SampleLogOutput><![CDATA[BindException]]></SampleLogOutput><RegExpPattern><![CDATA[BindException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Thrown when binding errors are considered fatal. Implements the
+ BindingResult interface (and thus its super-interface Errors)
+ to allow for the direct analysis of binding errors.
+
+ <p>As of Spring 2.0, this is a special-purpose class. Normally, application
+ code will work with the BindingResult interface, or a DataBinder that
+ in turn exposes a BindingResult via
+ <A HREF="../../../org/springframework/validation/DataBinder.html#getBindingResult()"><CODE>DataBinder.getBindingResult()</CODE></A>.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

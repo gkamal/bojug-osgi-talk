@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>NoTransactionException</Summary><SampleLogOutput><![CDATA[NoTransactionException]]></SampleLogOutput><RegExpPattern><![CDATA[NoTransactionException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Exception thrown when an operation is attempted that
+ relies on an existing transaction (such as setting
+ rollback status) and there is no existing transaction.
+ This represents an illegal usage of the transaction API.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

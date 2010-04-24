@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="generateActivator"/>
+	<item value="false" key="rcpPlugin"/>
+	<item value="false" key="apiAnalysis"/>
+	<item value="true" key="osgiProject"/>
+	<item value="Equinox" key="targetName"/>
+	<section name="editBundleContainerWizard">
+		<item value="${workspace_loc}/bundles" key="location1"/>
+	</section>
+</section>

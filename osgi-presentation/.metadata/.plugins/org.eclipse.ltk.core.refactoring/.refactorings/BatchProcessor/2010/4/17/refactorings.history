@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;batchprocessor.internal.ProcessOrders.processOrders()&apos; to &apos;processFile&apos;&#x0A;- Original project: &apos;BatchProcessor&apos;&#x0A;- Original element: &apos;batchprocessor.internal.ProcessOrders.processOrders()&apos;&#x0A;- Renamed element: &apos;batchprocessor.internal.ProcessOrders.processFile()&apos;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;processOrders&apos;" flags="589826" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;batchprocessor.internal{ProcessOrders.java[ProcessOrders~processOrders" name="processFile" references="true" stamp="1272099837909" version="1.0"/>
+</session>
