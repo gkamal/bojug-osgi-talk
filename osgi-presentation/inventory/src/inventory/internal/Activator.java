@@ -1,22 +1,22 @@
 package inventory.internal;
 
+import inventory.InventoryService;
+
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
+import org.osgi.framework.ServiceRegistration;
 
 public class Activator implements BundleActivator {
 
-	/*
-	 * (non-Javadoc)
-	 * @see org.osgi.framework.BundleActivator#start(org.osgi.framework.BundleContext)
-	 */
+	ServiceRegistration inventoryServiceRegistration;
+	
 	public void start(BundleContext context) throws Exception {
+		inventoryServiceRegistration = context.registerService(InventoryService.class.getName(),
+				new InventoryServiceImpl(),null);
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * @see org.osgi.framework.BundleActivator#stop(org.osgi.framework.BundleContext)
-	 */
 	public void stop(BundleContext context) throws Exception {
+		inventoryServiceRegistration.unregister();
 	}
 
 }

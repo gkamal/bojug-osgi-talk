@@ -1,25 +1,25 @@
 package batchprocessor.internal;
 
+import order.OrderService;
+
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
+import org.osgi.framework.ServiceReference;
 
 public class Activator implements BundleActivator {
 
+	ServiceReference orderServiceReference;
 	Thread processOrdersThread;
-	/*
-	 * (non-Javadoc)
-	 * @see org.osgi.framework.BundleActivator#start(org.osgi.framework.BundleContext)
-	 */
+
 	public void start(BundleContext context) throws Exception {
+		orderServiceReference = context.getServiceReference(OrderService.class.getName());
+		OrderService orderService = (OrderService) context.getService(orderServiceReference);
 		System.out.println("Batch processing started");
-		processOrdersThread = new Thread(new ProcessOrders());
+		processOrdersThread = new Thread(new ProcessOrders(orderService));
 		processOrdersThread.start();
+		
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * @see org.osgi.framework.BundleActivator#stop(org.osgi.framework.BundleContext)
-	 */
 	public void stop(BundleContext context) throws Exception {
 		processOrdersThread.interrupt();
 		processOrdersThread.join();

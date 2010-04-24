@@ -5,11 +5,19 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 
+import order.OrderService;
+import order.Receipt;
+
 
 public class ProcessOrders implements Runnable {
 
 	private static final String FILE_LOC = "/home/kamal/Desktop/orders.txt";
+	private OrderService orderService;
 	
+	public ProcessOrders(OrderService orderService) {
+		this.orderService = orderService;
+	}
+
 	@Override
 	public void run() {
 		System.out.println("Processing started");
@@ -43,7 +51,7 @@ public class ProcessOrders implements Runnable {
 					if (line == null) break;
 					String[] fields = line.split(",");
 					Long itemId = Long.parseLong(fields[0]); 
-					Long qty = Long.parseLong(fields[1]);
+					Integer qty = Integer.parseInt(fields[1]);
 					
 					System.out.println("Place Order for " + itemId + " " + qty );
 					processOrder(itemId,qty);
@@ -57,9 +65,9 @@ public class ProcessOrders implements Runnable {
 		}
 	}
 
-	private void processOrder(Long itemId, Long qty) {
-		// TODO invoke order service
-		
+	private void processOrder(Long itemId, int qty) {
+		Receipt receipt = orderService.placeOrder(itemId, qty);
+		System.out.println("Placed order successfully - order id " + receipt.getOrderId() + " total price " + receipt.getPrice());
 	}
 
 }

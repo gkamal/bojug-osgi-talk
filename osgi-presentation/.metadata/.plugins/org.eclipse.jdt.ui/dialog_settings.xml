@@ -6,6 +6,37 @@
 	<section name="OverrideMethodDialog">
 		<item value="true" key="showtypes"/>
 	</section>
+	<section name="SourceActionDialog.constructors">
+		<item value="false" key="Comments"/>
+		<item value="1" key="VisibilityModifier"/>
+		<item value="false" key="SynchronizedModifier"/>
+		<item value="false" key="FinalModifier"/>
+	</section>
+	<section name="GenerateConstructorUsingFieldsSelectionDialog">
+		<item value="false" key="OmitCallToSuper"/>
+	</section>
+	<section name="JavaSearchPage">
+		<item value="false" key="CASE_SENSITIVE"/>
+		<item value="11" key="INCLUDE_MASK"/>
+		<item value="0" key="HISTORY_SIZE"/>
+	</section>
+	<section name="DialogBounds_SuperInterfaceSelectionDialog">
+		<item value="314" key="DIALOG_WIDTH"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+		<item value="95" key="DIALOG_X_ORIGIN"/>
+		<item value="533" key="DIALOG_HEIGHT"/>
+		<item value="1|Liberation Sans|8.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="SourceActionDialog.methods">
+		<item value="1" key="VisibilityModifier"/>
+		<item value="false" key="Comments"/>
+		<item value="false" key="SynchronizedModifier"/>
+		<item value="false" key="FinalModifier"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;" key="History"/>
+	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item value="true" key="group_libraries"/>
 		<item value="false" key="linkWithEditor"/>
@@ -17,34 +48,12 @@
 	</section>
 	<section name="JavaElementSearchActions">
 	</section>
-	<section name="JavaSearchPage">
-		<item value="false" key="CASE_SENSITIVE"/>
-		<item value="11" key="INCLUDE_MASK"/>
-		<item value="0" key="HISTORY_SIZE"/>
-	</section>
-	<section name="DialogBounds_SuperInterfaceSelectionDialog">
-		<item value="314" key="DIALOG_WIDTH"/>
-		<item value="0" key="DIALOG_Y_ORIGIN"/>
-		<item value="533" key="DIALOG_HEIGHT"/>
-		<item value="95" key="DIALOG_X_ORIGIN"/>
-		<item value="1|Liberation Sans|8.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
-	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 	</section>
 	<section name="RenameInformationPopup">
 	</section>
-	<section name="SourceActionDialog.methods">
-		<item value="false" key="Comments"/>
-		<item value="1" key="VisibilityModifier"/>
-		<item value="false" key="SynchronizedModifier"/>
-		<item value="false" key="FinalModifier"/>
-	</section>
 	<section name="AddGetterSetterDialog">
 		<item value="false" key="RemoveFinal"/>
 		<item value="false" key="SortOrdering"/>
-	</section>
-	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
-		<item value="true" key="ShowStatusLine"/>
-		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;" key="History"/>
 	</section>
 </section>

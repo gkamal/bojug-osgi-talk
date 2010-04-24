@@ -3,6 +3,7 @@
 	<name>BatchProcessor</name>
 	<comment></comment>
 	<projects>
+		<project>order</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

@@ -1,5 +1,7 @@
 package order.internal;
 
+import inventory.InventoryService;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -9,21 +11,26 @@ import order.Receipt;
 public class OrderServiceImpl implements OrderService {
 
 	Map<Long,Order> orders = new HashMap<Long, Order>();
+	private InventoryService inventoryService;
 	
-	@Override
-	public void cancelOrder(Long orderId) {
-		Order order = orders.remove(orderId);
-		// TODO add inventory updation logic
-		
+	public OrderServiceImpl(InventoryService inventoryService) {
+		this.inventoryService = inventoryService;
 	}
 
 	@Override
-	public Receipt placeOrder(Long itemId, Long qty) {
+	public void cancelOrder(Long orderId) {
+		Order order = orders.remove(orderId);
+		inventoryService.returned(order.getItemId(),order.getQuantity());
+	}
+
+	@Override
+	public Receipt placeOrder(Long itemId, int qty) {
 		Order order = new Order(itemId,qty);
 		orders.put(order.getId(),order);
-		// TODO add inventory updation logic
+		double price = inventoryService.getPrice(itemId)*qty;
+		inventoryService.sold(itemId, qty);
 		
-		return new Receipt(order.getId(),0.0);
+		return new Receipt(order.getId(),price);
 	}
 
 }

@@ -7,9 +7,10 @@ public class Order {
 	private Long itemId;
 	private int quantity;
 
-	public Order(Long itemId, Long qty) {
+	public Order(Long itemId, int qty) {
 		this.id = Order.sequence++;
 		this.itemId = itemId;
+		this.quantity = qty;
 	}
 
 	public Long getId() {

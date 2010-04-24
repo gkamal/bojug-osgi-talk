@@ -3,6 +3,7 @@
 	<name>order</name>
 	<comment></comment>
 	<projects>
+		<project>inventory</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
