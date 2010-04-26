@@ -63,7 +63,7 @@ public class ProcessOrders implements Runnable {
 			}
 			file.delete();
 		} else {
-			System.out.println("File + " + FILE_LOC + " not found");
+			System.out.println("File doesn't exists");
 		}
 	}
 
