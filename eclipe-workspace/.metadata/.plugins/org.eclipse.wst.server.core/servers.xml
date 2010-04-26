@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-time="2" configuration-id="/Servers/SpringSource dm Server v1.0-config" hostname="localhost" id="SpringSource dm Server v1.0" id-set="true" name="SpringSource dm Server v1.0" runtime-id="SpringSource dm Server (Runtime) v1.0" server-type="com.springsource.server.10" server-type-id="com.springsource.server.10" start-timeout="300" stop-timeout="300" timestamp="0"/>
+  <server auto-publish-time="2" configuration-id="/Servers/SpringSource dm Server v2.0-config" hostname="localhost" id="SpringSource dm Server v2.0" id-set="true" name="SpringSource dm Server v2.0" runtime-id="SpringSource dm Server (Runtime) v2.0" server-type="com.springsource.server.20" server-type-id="com.springsource.server.20" start-timeout="300" stop-timeout="300" timestamp="0"/>
+  <server auto-publish-setting="2" auto-publish-time="1" com.springsource.tcserver.asf="true" configuration-id="/Servers/SpringSource tc Server v6.0-config" deployDir="wtpwebapps" hostname="localhost" id="SpringSource tc Server v6.0" id-set="true" name="SpringSource tc Server v6.0" runtime-id="SpringSource tc Server (Runtime) v6.0" server-type="com.springsource.tcserver.60" server-type-id="com.springsource.tcserver.60" start-timeout="120" stop-timeout="15" testEnvironment="false" timestamp="0">
+    <list key="removeExtraVmArgs"/>
+    <list key="addExtraVmArgs" value0="-Dinsight.enabled=false"/>
+  </server>
+  <server hostname="localhost" id="SpringSource Cloud Foundry v1.0" id-set="true" name="SpringSource Cloud Foundry v1.0" runtime-id="SpringSource Cloud Foundry (Runtime) v1.0" server-type="com.springsource.cloudfoundryserver.10" server-type-id="com.springsource.cloudfoundryserver.10" start-timeout="600" stop-timeout="60" timestamp="0"/>
+</servers>

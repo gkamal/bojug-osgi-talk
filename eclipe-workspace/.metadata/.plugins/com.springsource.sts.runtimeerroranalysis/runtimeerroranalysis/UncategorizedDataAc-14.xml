@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>UncategorizedDataAccessException</Summary><SampleLogOutput><![CDATA[UncategorizedDataAccessException]]></SampleLogOutput><RegExpPattern><![CDATA[UncategorizedDataAccessException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Normal superclass when we can't distinguish anything more specific
+ than "something went wrong with the underlying resource": for example,
+ a SQLException from JDBC we can't pinpoint more precisely.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

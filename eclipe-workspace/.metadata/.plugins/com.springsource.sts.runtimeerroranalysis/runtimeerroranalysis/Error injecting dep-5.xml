@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>Error injecting dependency, where the injected object has been applied with aspects</Summary><AuthorTermsAccepted>true</AuthorTermsAccepted><SampleLogOutput><![CDATA[Cannot convert value of type [example.$Proxy6] to required type [example.MyDaoImpl] for property 'myDao': no matching editors or conversion strategy found]]></SampleLogOutput><RegExpPattern><![CDATA[Cannot convert value of type \[.*\$Proxy\d*\] to required type \[(.*)\] for property '(.*)': no matching editors or conversion strategy found]]></RegExpPattern><ProblemDetailHtml><![CDATA[Spring AOP uses two kinds of proxies: JDK dynamic proxies and CGLIB-based proxies. JDK dynamic proxies are based on interfaces implemented by the target class, whereas CGLIB-based proxies are based on a subclass of the target class. If the expected property type (argument to a setter or constructor) is of class-type and JDK dynamic is in effect, you will get a type-conversion error.
+
+In your case, <code>$2</code> property is expecting <code>$1</code>, which is a class.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[There are two possible solutions:
+<ol>
+<li>
+Alter the expected property type to be of interface type. For example, instead of using the <code>setMyDao(MyDaoImpl dao)</code> method, use <code>setMyDao(MyDao dao)</code>, assuming <code>MyDao</code> is an interface. In your case, introduce an appropriate interface to the <code>$1</code> class and modify the <code>$2</code> property to be of that interface type.
+</li>
+<li>
+If you are using Spring's AOP along with the AspectJ programming model (either through @Aspect and associated annotations or through "aop" namespace), configure Spring to use CGLIB proxies by setting <b><code>proxy-target-class</code></b> attribute of either &lt;aop:config&gt; or &lt;aop:aspectj-autoproxy&gt; to <b>true</b>.
+</li>
+</ol>]]></SolutionDetailHtml><AdditionalResourcesDetailHtml><![CDATA[Section <a href="http://static.springframework.org/spring/docs/2.5.x/reference/aop.html#aop-proxying">Proxying mechanisms</a> in the Spring framework documentation.]]></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><RuntimeErrorResolution><Summary>Import-Package constraint cannot be satisfied</Summary><SampleLogOutput><![CDATA[Caused by: org.osgi.framework.BundleException: The bundle could not be resolved. Reason: Missing Constraint: Import-Package: org.foo.bar; version="0.0.0"
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:294)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:256)
+	at org.springframework.osgi.test.AbstractOnTheFlyBundleCreatorTests.installAndStartBundle(AbstractOnTheFlyBundleCreatorTests.java:419)
+	at org.springframework.osgi.test.AbstractOnTheFlyBundleCreatorTests.postProcessBundleContext(AbstractOnTheFlyBundleCreatorTests.java:396)
+	... 15 more]]></SampleLogOutput><RegExpPattern><![CDATA[Caused by: org.osgi.framework.BundleException: The bundle could not be resolved. Reason: Missing Constraint: Import-Package: (.*); version=(.*)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker\(BundleHost.java:294\)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start\(AbstractBundle.java:256\)
+	at org.springframework.osgi.test.AbstractOnTheFlyBundleCreatorTests.installAndStartBundle\(AbstractOnTheFlyBundleCreatorTests.java:419\)
+	at org.springframework.osgi.test.AbstractOnTheFlyBundleCreatorTests.postProcessBundleContext\(AbstractOnTheFlyBundleCreatorTests.java:396\)
+	... 15 more]]></RegExpPattern><ProblemDetailHtml><![CDATA[Package <code>$1</code>, version <code>$2</code> cannot be satisfied.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Possible solutions are:
+<ul>
+  <li>Change package name</li>
+  <li>Change package version</li>
+  <li>Remove package import</li>
+  <li>Install a bundle that exports the package requied by the import</li>
+</ul>]]></SolutionDetailHtml><AdditionalResourcesDetailHtml/></RuntimeErrorResolution>

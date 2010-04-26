@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>NotAnAtAspectException</Summary><SampleLogOutput><![CDATA[NotAnAtAspectException]]></SampleLogOutput><RegExpPattern><![CDATA[NotAnAtAspectException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Extension of AopConfigException thrown when trying to perform
+ an advisor generation operation on a class that is not an
+ AspectJ annotation-style aspect.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

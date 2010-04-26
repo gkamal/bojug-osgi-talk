@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>JdoSystemException</Summary><SampleLogOutput><![CDATA[JdoSystemException]]></SampleLogOutput><RegExpPattern><![CDATA[JdoSystemException]]></RegExpPattern><ProblemDetailHtml><![CDATA[JDO-specific subclass of UncategorizedDataAccessException,
+ for JDO system errors that do not match any concrete
+ <code>org.springframework.dao</code> exceptions.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

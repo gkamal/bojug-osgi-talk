@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>HibernateSystemException</Summary><SampleLogOutput><![CDATA[HibernateSystemException]]></SampleLogOutput><RegExpPattern><![CDATA[HibernateSystemException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Hibernate-specific subclass of UncategorizedDataAccessException,
+ for Hibernate system errors that do not match any concrete
+ <code>org.springframework.dao</code> exceptions.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

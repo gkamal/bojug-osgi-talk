@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.springsource.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SpringSource.org</title>
+ <link>http://www.springsource.org</link>
+ <description>Welcome to the home of Spring, the leading platform to build and run enterprise Java applications. Led and sustained by SpringSource, Spring delivers significant benefits for many projects, increasing development productivity and runtime performance while improving test coverage and application quality.</description>
+ <language>en</language>
+<item>
+ <title>Reminder: Introducing VMforce Webcast</title>
+ <link>http://www.springsource.org/node/2501</link>
+ <description>&lt;p&gt; 
+&lt;div style=&quot;float: right; width:210px; padding: 10px&quot;&gt;
+&lt;a href=&quot;http://www.vmforce.com/?d=70130000000F3HD&quot;&gt;&lt;img height=&quot;169&quot; alt=&quot;VMforce Webcast&quot; width=&quot;180&quot; border=&quot;0&quot; src=&quot;/files/vmforce_180x169.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+Be sure to register for next week&#039;s webcast &lt;a href=&quot;http://www.vmforce.com/?d=70130000000F3HD&quot;&gt;Introducing VMforce&lt;/a&gt; on &lt;strong&gt;Tuesday April 27 at 10:30 AM PDT&lt;/strong&gt;. Join industry leaders &lt;a href=&quot;http://www.salesforce.com/company/leadership/executive-team/#benioff&quot;&gt;Marc Benioff&lt;/a&gt;, chairman &amp; CEO of &lt;a href=&quot;http://www.salesforce.com&quot;&gt;salesforce.com&lt;/a&gt;, and &lt;a href=&quot;http://www.vmware.com/company/leadership.html&quot;&gt;Paul Maritz&lt;/a&gt;, president &amp; CEO of &lt;a href=&quot;http://www.vmware.com&quot;&gt;VMware&lt;/a&gt;, for a live event where they will make an exciting joint product announcement on the future of cloud computing. &lt;/p&gt;
+
+&lt;p&gt;The news will be of particular interest to the Spring community so be sure to &lt;a href=&quot;http://www.vmforce.com/?d=70130000000F3HD&quot;&gt;sign up now&lt;/a&gt; to hear all about how the new VMforce technology will impact enterprise application development and deployment. 
+&lt;/p&gt;
+
+&lt;br /&gt;</description>
+ <comments>http://www.springsource.org/node/2501#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Fri, 23 Apr 2010 07:48:26 +0000</pubDate>
+ <dc:creator>Adam Fitzgerald</dc:creator>
+ <guid isPermaLink="false">2501 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Flex 4 and Flash Builder 4 Adds Spring Blaze DS Updates</title>
+ <link>http://www.springsource.org/node/2497</link>
+ <description>&lt;p&gt;&lt;a href=&quot;http://www.adobe.com&quot;&gt;Adobe&lt;/a&gt; recently announced the launch of &lt;a href=&quot;http://www.adobe.com/products/flex/&quot;&gt;Flex 4&lt;/a&gt; and &lt;a href=&quot;http://www.adobe.com/products/flashbuilder/&quot;&gt;Flash Builder 4&lt;/a&gt;.  Along with data-centric development features (including services introspection, value objects and service stubs generation), Flex 4&#039;s Spark component model enables a new level of collaboration between Designers and Developers.  For the launch, Adobe has also updated the &lt;a href=&quot;http://www.springsource.org/spring-flex&quot;&gt;Spring Blaze DS&lt;/a&gt; related content, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Updated &lt;a href=&quot;http://www.adobe.com/devnet/flex/articles/spring_blazeds_integration.html&quot;&gt;Intro on Spring Blaze DS Integration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Updated &lt;a href=&quot;http://www.adobe.com/devnet/flex/articles/spring_blazeds_testdrive.html&quot;&gt;Spring Blaze DS Integration Test Drive&lt;/a&gt; (with files)&lt;/li&gt;
+&lt;li&gt;New videos on using Flash Builder 4 &lt;a href=&quot;http://www.adobe.com/devnet/flex/articles/flashbuilder4_datawizards_spring.html&quot;&gt;Data Wizards with Spring and Java&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Christophe Conraets&#039; also recently blogged about the pre-configured &lt;a href=&quot;http://coenraets.org/blog/2010/03/new-spring-blazeds-test-drive-available-flex-4-blazeds-4-and-spring-blazeds-integration-1-0-3/&quot;&gt;Test Drive Server&lt;/a&gt; that he put together.&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/2497#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Fri, 16 Apr 2010 18:45:20 +0000</pubDate>
+ <dc:creator>Adam Fitzgerald</dc:creator>
+ <guid isPermaLink="false">2497 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring Web Flow 2.0.9 Released</title>
+ <link>http://www.springsource.org/node/2496</link>
+ <description>&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;We are pleased to announce that Spring Web Flow 2.0.9 is now available.  &lt;a target=&quot;_blank&quot; href=&quot;http://www.springsource.com/download?project=Spring%20Web%20Flow&quot;&gt;Download&lt;/a&gt; | &lt;a target=&quot;_blank&quot; href=&quot;http://static.springframework.org/spring-webflow/docs/2.0.x/reference/htmlsingle/spring-webflow-reference.html&quot;&gt;Reference Documentation&lt;/a&gt; | &lt;a target=&quot;_blank&quot; href=&quot;http://static.springframework.org/spring-webflow/docs/2.0.x/changelog.txt&quot;&gt;Change Log&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This release includes a number of minor bug fixes, as well as an update to the version of Dojo that addresses a Dojo &lt;a target=&quot;_blank&quot; href=&quot;http://www.springsource.com/security/spring-web-flow&quot;&gt;security vulnerability&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In addition to 2.0.x maintenance, the Web Flow project team is currently working on a &lt;a target=&quot;_blank&quot; href=&quot;https://jira.springsource.org/browse/SWF/fixforversion/11441&quot;&gt;2.1&lt;/a&gt; release that provides a current generation version of Web Flow that builds on Spring 3.  At the same time, work is continuing towards the first &lt;a target=&quot;_blank&quot; href=&quot;https://jira.springsource.org/browse/SWF/fixforversion/11144&quot;&gt;3.0 milestone&lt;/a&gt; for the next generation Web Flow.  Watch for future announcements in these areas soon.&lt;/p&gt;
+&lt;p&gt;Keith Donald&lt;br /&gt;
+Spring Web Flow Project Lead&lt;/p&gt;
+</description>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Thu, 15 Apr 2010 14:39:28 +0000</pubDate>
+ <dc:creator>Keith Donald</dc:creator>
+ <guid isPermaLink="false">2496 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Webcast: Introducing VMforce...</title>
+ <link>http://www.springsource.org/node/2495</link>
+ <description>&lt;div class=&quot;event-nodeapi&quot;&gt;
+  &lt;div class=&quot;event-start dtstart&quot; title=&quot;2010-04-27T17:30:00Z&quot;&gt;&lt;label&gt;Start:  &lt;/label&gt; 2010-04-27 11:30 &lt;/div&gt;
+&lt;/div&gt;
+  &lt;div class=&quot;event-nodeapi&quot;&gt;
+    &lt;div class=&quot;event-end dtend&quot; title=&quot;2010-04-27T18:45:00Z&quot;&gt;&lt;label&gt;End: &lt;/label&gt; 2010-04-27 12:45 &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;div class=&quot;event-nodeapi&quot;&gt;
+   &lt;div class=&quot;event-tz&quot;&gt;&lt;label&gt;Timezone: &lt;/label&gt;US/Mountain &lt;/div&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;event-nodeapi&quot;&gt;
+  &lt;div class=&quot;event-start dtstart&quot; title=&quot;2010-04-27T17:30:00Z&quot;&gt;&lt;label&gt;Start:  &lt;/label&gt; 2010-04-27 11:30 &lt;/div&gt;
+&lt;/div&gt;
+  &lt;div class=&quot;event-nodeapi&quot;&gt;
+    &lt;div class=&quot;event-end dtend&quot; title=&quot;2010-04-27T18:45:00Z&quot;&gt;&lt;label&gt;End: &lt;/label&gt; 2010-04-27 12:45 &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;div class=&quot;event-nodeapi&quot;&gt;
+   &lt;div class=&quot;event-tz&quot;&gt;&lt;label&gt;Timezone: &lt;/label&gt;US/Mountain &lt;/div&gt;
+  &lt;/div&gt;
+&lt;p&gt; 
+&lt;div style=&quot;float: right; width:210px; padding: 10px&quot;&gt;
+&lt;a href=&quot;http://www.vmforce.com/?d=70130000000F3HD&quot;&gt;&lt;img height=&quot;210&quot; alt=&quot;VMforce Webcast&quot; width=&quot;225&quot; border=&quot;0&quot; src=&quot;/files/vmforceWebcast.png&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+Join industry leaders &lt;a href=&quot;http://www.salesforce.com/company/leadership/executive-team/#benioff&quot;&gt;Marc Benioff&lt;/a&gt;, chairman &amp; CEO of &lt;a href=&quot;http://www.salesforce.com&quot;&gt;salesforce.com&lt;/a&gt;, and &lt;a href=&quot;http://www.vmware.com/company/leadership.html&quot;&gt;Paul Maritz&lt;/a&gt;, president &amp; CEO of &lt;a href=&quot;http://www.vmware.com&quot;&gt;VMware&lt;/a&gt;, for a live Webcast where they will make an exciting joint product announcement on the future of cloud computing. SpringSource community members will want to hear all about how the new VMforce technology will impact enterprise application development and deployment. 
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.vmforce.com/?d=70130000000F3HD&quot;&gt;Register Now!&lt;/a&gt;&lt;/p&gt;
+&lt;br /&gt;</description>
+ <comments>http://www.springsource.org/node/2495#comments</comments>
+ <pubDate>Wed, 14 Apr 2010 14:57:55 +0000</pubDate>
+ <dc:creator>Adam Fitzgerald</dc:creator>
+ <guid isPermaLink="false">2495 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>SpringSource Welcomes RabbitMQ Community</title>
+ <link>http://www.springsource.org/node/2494</link>
+ <description>&lt;p&gt;Today &lt;a href=&quot;http://www.springsource.com&quot;&gt;SpringSource&lt;/a&gt; &lt;a href=&quot;http://www.springsource.com/newsevents/springsource-acquires-rabbitmq-cloud-messaging&quot;&gt;announced&lt;/a&gt; that it has acquired the company behind the popular open source enterprise messaging technology, &lt;a href=&quot;http://www.rabbitmq.com&quot;&gt;RabbitMQ&lt;/a&gt;.  RabbitMQ is ideal for use in cloud computing environments where developers are designing tomorrow’s distributed, loosely coupled, highly scalable advanced applications and it is based on the open standard, &lt;a href=&quot;http://www.amqp.org&quot;&gt;AMQP&lt;/a&gt;. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rod Johnson&#039;s &lt;a href=&quot;http://blog.springsource.com/2010/04/13/springsource-acquires-rabbitmq/&quot;&gt;blog post&lt;/a&gt; about the news&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.springsource.com/rabbit-technologies-acquisition-faq&quot;&gt;Frequently Asked Questions&lt;/a&gt; about the announcement&lt;/li&gt;
+&lt;li&gt;Information about &lt;a href=&quot;http://www.rabbitmq.com/how.html&quot;&gt;getting started&lt;/a&gt; with RabbitMQ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;RabbitMQ has very strong cross language support, and the Spring and Grails communities can expect to see a first class integration with RabbitMQ as a messaging system in the near future. So a very warm welcome from the Spring community to the RabbitMQ community - looking forward to building some great applications for the desktop, datacenter and into the cloud.&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/2494#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Tue, 13 Apr 2010 20:18:29 +0000</pubDate>
+ <dc:creator>Adam Fitzgerald</dc:creator>
+ <guid isPermaLink="false">2494 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Webinar: What&#039;s New in SpringSource Tool Suite</title>
+ <link>http://www.springsource.org/node/2492</link>
+ <description>&lt;div class=&quot;event-nodeapi&quot;&gt;
+  &lt;div class=&quot;event-start dtstart&quot; title=&quot;2010-04-22T14:00:00Z&quot;&gt;&lt;label&gt;Start:  &lt;/label&gt; 2010-04-22 08:00 &lt;/div&gt;
+&lt;/div&gt;
+ &lt;div class=&quot;event-nodeapi&quot;&gt;
+   &lt;div class=&quot;event-tz&quot;&gt;&lt;label&gt;Timezone: &lt;/label&gt;US/Mountain &lt;/div&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;event-nodeapi&quot;&gt;
+  &lt;div class=&quot;event-start dtstart&quot; title=&quot;2010-04-22T14:00:00Z&quot;&gt;&lt;label&gt;Start:  &lt;/label&gt; 2010-04-22 08:00 &lt;/div&gt;
+&lt;/div&gt;
+ &lt;div class=&quot;event-nodeapi&quot;&gt;
+   &lt;div class=&quot;event-tz&quot;&gt;&lt;label&gt;Timezone: &lt;/label&gt;US/Mountain &lt;/div&gt;
+  &lt;/div&gt;
+&lt;p&gt;Join &lt;a href=&quot;http://www.springsource.com&quot;&gt;SpringSource&lt;/a&gt;&#039;s development tooling expert, &lt;a href=&quot;http://blog.springsource.com/author/cdupuis/&quot;&gt;Christian Dupuis&lt;/a&gt;, for this webinar that will cover all the latest features available in &lt;a href=&quot;http://www.springsource.com/products/sts&quot;&gt;SpringSource Tool Suite&lt;/a&gt; (STS), the best Eclipse-powered development environment for building Spring-powered enterprise applications. Topics covered will include new &lt;a href=&quot;/roo&quot;&gt;Spring Roo&lt;/a&gt; support, support for &lt;a href=&quot;http://groovy.codehaus.org&quot;&gt;Groovy&lt;/a&gt; and &lt;a href=&quot;http://www.grails.org&quot;&gt;Grails&lt;/a&gt;-based application development, deploying to virtualized targets and dedicated support for &lt;a href=&quot;/spring-integration&quot;&gt;Spring Integration&lt;/a&gt; we well as other Spring projects. The live online event is offered at two different times:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Europe&lt;/strong&gt;: April 22, 3pm BST/4pm CET - &lt;a href=&quot;https://vmwareevents.webex.com/vmwareevents/onstage/g.php?t=a&amp;amp;d=663368282&quot;&gt;Register Here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;North America&lt;/strong&gt;: April 22 1pm EDT/10am PDT  &lt;a href=&quot;https://vmwareevents.webex.com/vmwareevents/onstage/g.php?t=a&amp;amp;d=664575600&quot;&gt;Register Here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+ <comments>http://www.springsource.org/node/2492#comments</comments>
+ <pubDate>Fri, 09 Apr 2010 15:40:19 +0000</pubDate>
+ <dc:creator>Adam Fitzgerald</dc:creator>
+ <guid isPermaLink="false">2492 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>SpringSource tc Server 2.0 Available for Download</title>
+ <link>http://www.springsource.org/node/2491</link>
+ <description>&lt;p&gt;Following on from the &lt;a href=&quot;http://blog.springsource.com/2010/03/10/springsource-tc-server-2-0/&quot;&gt;previous announcement&lt;/a&gt; about SpringSource &lt;a href=&quot;http://www.springsource.com/products/tcserver&quot;&gt;tc Server 2.0&lt;/a&gt;, the product is now available for download in three different variations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The new &lt;strong&gt;Spring Edition&lt;/strong&gt;: tc Server enhanced with instrumented Spring JARs for deep reporting about Spring application behavior in a production environment. &lt;a href=&quot;http://www.springsource.com/products/free-trial-tc-server-spring&quot;&gt;Evaluate&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.com/projects/tc-server/2.0/index.html&quot;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Standard Edition&lt;/strong&gt;: Apache Tomcat enhanced with enterprise class management, monitoring and control. &lt;a href=&quot;http://www.springsource.com/products/tc-server-60-evaluation&quot;&gt;Evaluate&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.com/projects/tc-server/2.0/index.html&quot;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Developer Edition&lt;/strong&gt;: &lt;em&gt;free&lt;/em&gt; developer version of tc Server with Spring Insight console to give full analysis of request processing in the server. &lt;a href=&quot;http://www.springsource.com/products/tc-server-developer-edition-preview&quot;&gt;Download&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.com/projects/tc-server/2.0/devedition/html/index.html&quot;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The tc Server is designed to be the best place to run Spring applications and with its lightweight footprint is ideally suited for modern virtual environments. Be sure to download the right server for you, give it a try and ask any questions you might have on the &lt;a href=&quot;http://forum.springsource.org/forumdisplay.php?f=64&quot;&gt;tc Server forum&lt;/a&gt;.&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/2491#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Thu, 08 Apr 2010 01:05:49 +0000</pubDate>
+ <dc:creator>Adam Fitzgerald</dc:creator>
+ <guid isPermaLink="false">2491 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring Python 1.1.0.RC1 released</title>
+ <link>http://www.springsource.org/node/2490</link>
+ <description>&lt;div style=&quot;float: right; width:248px;&quot;&gt;
+&lt;img src=&quot;http://springpython.webfactional.com/1.1.x/reference/html/images/spring_python_white.png&quot; &gt;
+&lt;/div&gt;
+&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;I&#039;m pleased to announce that &lt;a href=&quot;http://springpython.webfactional.com/&quot;&gt;Spring Python&lt;/a&gt; 1.1.0.RC1 is available. Read the &lt;a href=&quot;http://blog.springpython.webfactional.com/2010/04/07/spring-python-1-1-0-rc1-released/&quot;&gt;blog entry for more details&lt;/a&gt;  including a list of bugs, features, and improvements. Spring Python takes the concepts implemented by the Spring Framework, and applies them in Python. It includes features like dependency injection, aspect oriented programming, data access, transactions, security, remoting, and JMS support.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.springsource.com/download/community?project=Spring%20Python&quot;&gt;Download&lt;/a&gt; | &lt;a href=&quot;http://springpython.webfactional.com/1.1.x/reference/html/index.html&quot;&gt;Reference Documentation&lt;/a&gt; | &lt;a href=&quot;http://springpython.webfactional.com/1.1.x/pydoc/springpython.html&quot;&gt;Python API Docs&lt;/a&gt; | &lt;a href=&quot;http://blog.springpython.webfactional.com/&quot;&gt;Blog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is the first release candidate of Spring Python&#039;s newer 1.1 baseline, which includes new features and API improvements. You can also pre-order your copy of &lt;a href=&quot;https://www.packtpub.com/create-powerful-versatile-spring-python-1-1-applications/book&quot;&gt;Spring Python 1.1 from Packt Publishing&lt;/a&gt; to explore its many features provided with lots of code examples.&lt;/p&gt;
+&lt;p&gt;Since this project&#039;s inception back in 2006, the community has provided excellent feedback throughout the development process.&lt;/p&gt;
+&lt;p&gt;I encourage anyone interested to get involved by trying out the new functionality and giving us feedback in the &lt;a href=&quot;http://forum.springsource.org/forumdisplay.php?f=45&quot;&gt;community forum&lt;/a&gt; and &lt;a href=&quot;http://jira.springframework.org/browse/SESPRINGPYTHONPY&quot;&gt;JIRA&lt;/a&gt; as we proceed to add newer functionality to serve the Spring Python community.&lt;/p&gt;
+&lt;p&gt;Greg Turnquist&lt;br /&gt;
+Spring Python Project Lead&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/2490#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Wed, 07 Apr 2010 16:26:30 +0000</pubDate>
+ <dc:creator>gturnquist</dc:creator>
+ <guid isPermaLink="false">2490 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring Python 1.1.0.M2 is released</title>
+ <link>http://www.springsource.org/node/2489</link>
+ <description>&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;I&#039;m pleased to announce that &lt;a href=&quot;http://springpython.webfactional.com/&quot;&gt;Spring Python&lt;/a&gt; 1.1.0.M2 is available. Read the &lt;a href=&quot;http://blog.springpython.webfactional.com/2010/04/02/spring-python-1-1-0-m2-is-released/&quot;&gt;blog entry with details&lt;/a&gt;. Spring Python takes the concepts implemented by the Spring Framework, and applies them in Python.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.springsource.com/download/community?project=Spring%20Python&quot;&gt;Download&lt;/a&gt; | &lt;a href=&quot;http://springpython.webfactional.com/1.1.x/reference/html/index.html&quot;&gt;Reference Documentation&lt;/a&gt; | &lt;a href=&quot;http://springpython.webfactional.com/1.1.x/pydoc/springpython.html&quot;&gt;Python API Docs&lt;/a&gt; | &lt;a href=&quot;http://blog.springpython.webfactional.com/&quot;&gt;Blog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is the second milestone of Spring Python&#039;s newer 1.1 baseline, which includes new features and API improvements. You can also pre-order your copy of &lt;a href=&quot;https://www.packtpub.com/create-powerful-versatile-spring-python-1-1-applications/book&quot;&gt;Spring Python 1.1 from Packt Publishing&lt;/a&gt; to explore its many features provided with lots of code examples.&lt;/p&gt;
+&lt;p&gt;Since this project&#039;s inception back in 2006, the community has provided excellent feedback throughout the development process.&lt;/p&gt;
+&lt;p&gt;I encourage anyone interested to get involved by trying out the new functionality and giving us feedback in the &lt;a href=&quot;http://forum.springsource.org/forumdisplay.php?f=45&quot;&gt;community forum&lt;/a&gt; and &lt;a href=&quot;http://jira.springframework.org/browse/SESPRINGPYTHONPY&quot;&gt;JIRA&lt;/a&gt; as we proceed to add newer functionality to serve the Spring Python community.&lt;/p&gt;
+&lt;p&gt;Greg Turnquist&lt;br /&gt;
+Spring Python Project Lead&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/2489#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Fri, 02 Apr 2010 13:52:36 +0000</pubDate>
+ <dc:creator>gturnquist</dc:creator>
+ <guid isPermaLink="false">2489 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Registration Open for S2G Forum - London &amp; Amsterdam</title>
+ <link>http://www.springsource.org/node/2483</link>
+ <description>&lt;p&gt;Following on from the phenomenal success of last week&#039;s S2G Forum in Munich, registration is now open for S2G Forums in two new cities: &lt;a href=&quot;http://www.springsource.com/events/s2gforum-5-11-2010-amsterdam&quot;&gt;Amsterdam&lt;/a&gt; and &lt;a href=&quot;http://www.springsource.com/events/s2gforum-5-13-2010-london&quot;&gt;London&lt;/a&gt;. The S2G Forum is the best place to learn about modern enterprise application architectures and runtimes. This one day, multi-track, lecture-based forum gives developers, engineers and IT managers the latest information about enterprise Java technology. Presented by the technical thought leaders from SpringSource, the forum is comprised of three parallel session tracks: Essential Spring, Groovy &amp; Grails, and Enterprise Production Systems.&lt;/p&gt; 
+&lt;ul&gt;
+   &lt;li&gt;&lt;a href=&quot;http://www.springsource.com/events/s2gforum-5-11-2010-amsterdam&quot;&gt;Amsterdam&lt;/a&gt; - May 11th, 2010 at the Grand Hotel Krasnapolsky.&lt;/li&gt;
+   &lt;li&gt;&lt;a href=&quot;http://www.springsource.com/events/s2gforum-5-13-2010-london&quot;&gt;London&lt;/a&gt; - May 13th, 2010 at the Guoman Tower Hotel&lt;/lI&gt;
+ &lt;/ul&gt;
+&lt;p&gt;With fifteen highly technical sessions, S2G Forum is a great way to get updated about the latest developments with Spring, Roo, Tomcat, tc Server, Groovy and Grails. &lt;strong&gt;Register now!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+&lt;table border=&quot;0&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td valign=&quot;middle&quot; align=&quot;center&quot; width=&quot;50%&quot;&gt;&lt;img height=&quot;225&quot; alt=&quot;JavaOne 2009: Day One, Rod Johnson&quot; width=&quot;331&quot; border=&quot;0&quot; src=&quot;/files/S2GForumMunich_01.png&quot; /&gt;&lt;/td&gt;
+            &lt;td valign=&quot;middle&quot; align=&quot;center&quot; width=&quot;50%&quot;&gt;&lt;a href=&quot;http://twitter.com/TinyRod&quot;&gt;&lt;img height=&quot;225&quot; alt=&quot;JavaOne 2009: Day Two, Guillaume Laforge&quot; width=&quot;294&quot; border=&quot;0&quot; src=&quot;/files/S2GForumMunich_02.png&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td align=&quot;center&quot; width=&quot;50%&quot;&gt;S2G Forum in Munich was a packed event&lt;/td&gt;
+            &lt;td align=&quot;center&quot; width=&quot;50%&quot;&gt;Checking out the sights at Marienplatz&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/2483#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Sat, 27 Mar 2010 04:14:25 +0000</pubDate>
+ <dc:creator>Adam Fitzgerald</dc:creator>
+ <guid isPermaLink="false">2483 at http://www.springsource.org</guid>
+</item>
+</channel>
+</rss>

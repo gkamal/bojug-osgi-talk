@@ -1,0 +1,8 @@
+package inventory;
+
+public interface InventoryService {
+	int getAvailableQty(Long itemId);
+	double getPrice(Long itemId);
+	void sold(Long itemId,int quatity);
+	void procured(Long itemId,int quatity);
+}

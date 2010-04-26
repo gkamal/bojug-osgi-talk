@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>BeansException</Summary><SampleLogOutput><![CDATA[BeansException]]></SampleLogOutput><RegExpPattern><![CDATA[BeansException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Abstract superclass for all exceptions thrown in the beans package
+ and subpackages.
+
+ <p>Note that this is a runtime (unchecked) exception. Beans exceptions
+ are usually fatal; there is no reason for them to be checked.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

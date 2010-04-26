@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+	<channel>
+		<title>SpringSource Tool Suite Updates</title>
+		<link>http://www.springsource.com/products/sts</link>
+		<description>This feeds imforms about important updates relevant to users of STS.</description>
+		<generator>Feeder 2.0.7(1195) http://reinventedsoftware.com/feeder/</generator>
+		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+		<language>en-us</language>
+		<managingEditor>sts@springsource.com</managingEditor>
+		<pubDate>Wed, 24 Mar 2010 10:00:33 +0100</pubDate>
+		<lastBuildDate>Wed, 24 Mar 2010 10:00:33 +0100</lastBuildDate>
+		<atom:link href="http://dist.springsource.com.s3.amazonaws.com/release/STS/doc/updates.xml" rel="self" type="application/rss+xml"/>
+		<item>
+            <title>Thanks for installing STS 2.3.2</title>
+            <link>http://www.springsource.com/products/sts</link>
+            <description><![CDATA[<form><p><a href="http://springide.org">SpringSource</a> has released an update to SpringSource Tool Suite (STS), the best Eclipse-powered development environment for building Spring, Groovy and Grails powered enterprise application.</p>
+<p>Please review the following documents:</p>
+<li bindent="3"><a href="http://download.springsource.com/release/STS/doc/STS-new_and_noteworthy-2.3.2.RELEASE.pdf">New &amp; Noteworthy</a></li>
+<li bindent="3"><a href="http://download.springsource.com/release/STS/doc/STS-feature_comparison-2.3.2.RELEASE.pdf">Feature Comparison</a></li><p></p></form>]]></description>
+            <pubDate>Wed, 24 Mar 2010 10:00:33 +0100</pubDate>
+            <category>version=2.3.2</category>
+			<category>severity=important</category>
+            <guid isPermaLink="false">thanks-for-installing-sts-232</guid>
+        </item>
+		<item>
+			<title>STS 2.3.2 released today</title>
+			<link>http://www.springsource.com/products/sts</link>
+            <description><![CDATA[<form><p><a href="http://springide.org">SpringSource</a> will release an update to SpringSource Tool Suite (STS), the best Eclipse-powered development environment for building Spring, Groovy and Grails powered enterprise application. It is recommended to update to this version as soon as possible. </p>
+<p>Please review the following documents:</p>
+<li bindent="3"><a href="http://download.springsource.com/release/STS/doc/STS-new_and_noteworthy-2.3.2.RELEASE.pdf">New &amp; Noteworthy</a></li>
+<li bindent="3"><a href="http://download.springsource.com/release/STS/doc/STS-feature_comparison-2.3.2.RELEASE.pdf">Feature Comparison</a></li><p></p></form>]]></description>
+			<pubDate>Wed, 24 Mar 2010 10:00:32 +0100</pubDate>
+			<category>version=[0,2.3.2)</category>
+			<category>severity=important</category>
+			<guid isPermaLink="false">sts-232-released</guid>
+		</item>
+<!--		<item>
+			<title>Spring Roo 1.0.2 - now available from the Extension install</title>
+			<link>http://www.springsource.org/node/2399</link>
+			<description><![CDATA[<form><p>The STS extension install has been updated to provide access to the GA release of Spring Roo 1.0.2. To install Roo 1.0.2 into your STS installation click the 'Extension' tab from below and select the 'Spring Roo' entry for installation.</p><p>If you previously installed Roo from the Extension Install please select 'Find Updates' instead.</p></form>]]></description>
+			<pubDate>Sun, 21 Feb 2010 16:45:31 +0100</pubDate>
+			<category>version=2.3.1</category>
+			<category>severity=important</category>
+			<guid isPermaLink="false">extension-install-updated</guid>
+		</item>
+		<item>
+			<title>Spring Roo 1.0.2 - now available from the Extension install</title>
+			<link>http://www.springsource.org/node/2399</link>
+			<description><![CDATA[<form><p>The STS extension install has been updated to provide access to the GA release of Spring Roo 1.0.2. To install Roo 1.0.2 into your STS installation click the 'Extension' tab from below and select the 'Spring Roo' entry for installation.</p><p>If you previously installed Roo use 'Help -> Check for Updates' instead.</p></form>]]></description>
+			<pubDate>Sun, 21 Feb 2010 16:45:32 +0100</pubDate>
+			<category>version=[0,2.3.1)</category>
+			<category>severity=important</category>
+			<guid isPermaLink="false">extension-install-updated</guid>
+		</item>-->
+<!--		<item>
+			<title>Groovy-Eclipse 2.0.0 is final</title>
+			<link>http://docs.codehaus.org/display/GROOVY/Groovy-Eclipse+2.0.0+New+and+Noteworthy</link>
+			<description><![CDATA[<form><p>SpringSource is proud to announce the release of Groovy-Eclipse 2.0.0.</p><p>This version has much improved support for incremental, cross-language compilation and also comes with lots of improvements for editing Groovy code. A full list of features and bug fixes is available in the <a href="http://docs.codehaus.org/display/GROOVY/Groovy-Eclipse+2.0.0+New+and+Noteworthy">New &amp; Noteworthy</a>.</p>
+			<p>The STS extension install has been updated to provide access to the GA release of Groovy-Eclipse 2.0.0.</p></form>]]></description>
+			<pubDate>Fri, 15 Jan 2010 16:45:31 +0100</pubDate>
+			<category>version=2.3.0</category>
+			<category>severity=important</category>
+			<guid isPermaLink="false">groovy-eclipse-2-0-0-is-final</guid>
+		</item>-->
+		<!--	<item>
+			<title>Spring Roo 1.0.0 - now available from the Extension install</title>
+			<link>http://www.springsource.org/node/2273</link>
+			<description><![CDATA[<form><p>The STS extension install has been updated to provide access to the GA release of Spring Roo 1.0.0. To install Roo 1.0.0 into your STS installation click the 'Extension' tab from below and select the 'Spring Roo' entry for installation.</p><p>If you want to learn more about the release, check out Ben Alex's recent <a href="http://blog.springsource.com/2009/12/31/spring-roo-1-0-0-released/">blog post</a>.</p></form>]]></description>
+			<pubDate>Thu, 31 Dec 2009 16:45:31 +0100</pubDate>
+			<category>version=2.3.0</category>
+			<category>severity=important</category>
+			<guid isPermaLink="false">extension-install-updated</guid>
+		</item>-->
+		<!--        <item>
+            <title>Thanks for installing STS 2.3.0</title>
+            <link>http://www.springsource.org/node/2172</link>
+            <description><![CDATA[<form><p><a href="http://springide.org">SpringSource</a> has released an update to SpringSource Tool Suite (STS), the best Eclipse-powered development environment for building Spring, Groovy and Grails powered enterprise application. It is recommended to update to this version as soon as possible. </p>
+<p>Please review the following documents:</p>
+<li bindent="3"><a href="http://download.springsource.com/release/STS/doc/STS-new_and_noteworthy-2.3.0.RELEASE.pdf">New &amp; Noteworthy</a></li>
+<li bindent="3"><a href="http://download.springsource.com/release/STS/doc/STS-feature_comparison-2.3.0.RELEASE.pdf">Feature Comparison</a></li>
+</form>]]></description>
+            <pubDate>Thu, 17 Dec 2009 21:45:31 +0100</pubDate>
+            <category>version=2.3.0</category>
+            <guid isPermaLink="false">thanks-for-installing-sts-230</guid>
+        </item>-->
+		<!--        <item>
+            <title>Spring Framework 3.0</title>
+            <link>http://blog.springsource.com/2009/12/16/spring-framework-3-0-goes-ga/</link>
+            <description><![CDATA[<form><p>The SpringSource team is proud to announce the release of Spring 3.0. There are lots of new features and enhancements in this new version, so make sure to download Spring 3.0 and try it out.</p>
+<p><a href="http://www.springsource.com/download/community">Download</a> | <a href="http://static.springsource.org/spring/docs/3.0.x/spring-framework-reference/html/">Documentation</a> | <a  href="http://static.springsource.org/spring/docs/3.0.x/javadoc-api/">Javadoc API</a> | <a href="http://static.springsource.org/spring/docs/3.0.0.RELEASE/changelog.txt">Change Log</a> | <a href="http://jira.springframework.org/browse/SPR">JIRA</a></p></form>]]></description>
+            <pubDate>Wed, 16 Dec 2009 21:45:52 +0100</pubDate>
+            <category>version=2.1.0</category>
+            <category>severity=important</category>
+            <guid isPermaLink="false">spring-framework-30</guid>
+        </item>-->
+		<!--        <item>
+            <title>STS is Cloud Foundry Ready</title>
+            <link>http://blog.springsource.com/2009/11/10/cloud-foundry-integrated-into-developer-tools/</link>
+            <description><![CDATA[<form><p>With the latest version, you can access SpringSource Cloud Foundry right from within STS and deploy your Spring, Grails and Roo applications to the cloud. Give it a try!</p></form>]]></description>
+            <pubDate>Tue, 01 Dec 2009 21:45:52 +0100</pubDate>
+            <category>version=2.1.0</category>
+            <guid isPermaLink="false">sts-is-cloud-foundry-ready</guid>
+        </item>-->
+	</channel>
+</rss>

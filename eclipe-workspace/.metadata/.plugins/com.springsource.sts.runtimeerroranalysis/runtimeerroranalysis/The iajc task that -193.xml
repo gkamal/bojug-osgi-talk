@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>The iajc task that invokes the AspectJ compiler has not been defined to Ant</Summary><SampleLogOutput><![CDATA[Problem: failed to create task or type iajc]]></SampleLogOutput><RegExpPattern><![CDATA[Problem: failed to create task or type iajc]]></RegExpPattern><ProblemDetailHtml><![CDATA[In order to use the iajc task in an Ant build script, it must be defined as a custom task.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[To define the iajc task, this piece of XML should be included in the Ant build script:<br>
+<font size="+1">
+<pre><code>
+&lt;taskdef 
+      resource="org/aspectj/tools/ant/taskdefs/aspectjTaskdefs.properties"&gt;
+    &lt;classpath&gt;
+      &lt;pathelement location="${aspectjhome}/aspectj/lib/aspectjtools.jar"/&gt;
+    &lt;/classpath&gt;
+&lt;/taskdef&gt;
+</code></pre></font>
+<p>Obviously the path to aspectjtools.jar may vary depending on the installation.  If working inside Eclipse and wishing to use the iajc task that is included with the AJDT feature rather than the standalone task that comes with a regular AspectJ distribution, the configuration is more complex, see <a href="http://www.eclipse.org/ajdt/faq.php#q:ant">http://www.eclipse.org/ajdt/faq.php#q:ant&lt;/a>.  It is recommended where possible to have a normal installation of AspectJ alongside having AJDT installed inside Eclipse so the simpler form shown above can be used.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml><![CDATA[<a href="http://sardes.inrialpes.fr/~bouchena/teaching/AOP/Soft/AopDoc/devguide/antTasks-iajc.html">http://sardes.inrialpes.fr/~bouchena/teaching/AOP/Soft/AopDoc/devguide/antTasks-iajc.html&lt;/a>
+<br>
+<a href="http://www.eclipse.org/ajdt/faq.php#q:ant">http://www.eclipse.org/ajdt/faq.php#q:ant&lt;/a>]]></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

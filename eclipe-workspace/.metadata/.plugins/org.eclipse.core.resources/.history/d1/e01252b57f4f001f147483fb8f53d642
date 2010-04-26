@@ -1,0 +1,34 @@
+package batchprocessor.internal;
+
+import java.io.File;
+import java.nio.channels.FileChannel;
+
+
+public class ProcessOrders implements Runnable {
+
+	private static final String FILE_LOC = "/home/kamal/Desktop/orders.txt";
+	
+	@Override
+	public void run() {
+		while(true) {
+			if (Thread.currentThread().isInterrupted()) {
+				break;
+			}
+			
+			processOrders();
+			
+			try {
+				Thread.sleep(60000);
+			} catch (InterruptedException e) {
+				break;
+			}
+			
+		}
+	}
+
+	private void processOrders() {
+		File file = new File(FILE_LOC);
+		
+	}
+
+}

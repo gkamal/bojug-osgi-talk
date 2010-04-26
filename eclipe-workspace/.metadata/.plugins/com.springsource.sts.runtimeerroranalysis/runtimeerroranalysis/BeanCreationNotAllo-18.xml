@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>BeanCreationNotAllowedException</Summary><SampleLogOutput><![CDATA[BeanCreationNotAllowedException]]></SampleLogOutput><RegExpPattern><![CDATA[BeanCreationNotAllowedException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Exception thrown in case of a bean being requested despite
+ bean creation currently not being allowed (for example, during
+ the shutdown phase of a bean factory).]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

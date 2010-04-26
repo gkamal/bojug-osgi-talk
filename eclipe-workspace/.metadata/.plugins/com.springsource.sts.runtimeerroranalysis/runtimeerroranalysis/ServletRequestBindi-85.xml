@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>ServletRequestBindingException</Summary><SampleLogOutput><![CDATA[ServletRequestBindingException]]></SampleLogOutput><RegExpPattern><![CDATA[ServletRequestBindingException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Fatal binding exception, thrown when we want to
+ treat binding exceptions as unrecoverable.
+
+ <p>Extends ServletException for convenient throwing in any Servlet resource
+ (such as a Filter), and NestedServletException for proper root cause handling
+ (as the plain ServletException doesn't expose its root cause at all).]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

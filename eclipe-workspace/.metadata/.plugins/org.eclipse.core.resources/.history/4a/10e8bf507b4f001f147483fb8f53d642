@@ -1,0 +1,14 @@
+package inventory.internal;
+
+import inventory.InventoryService;
+import inventory.Item;
+
+public class InventoryServiceImpl implements InventoryService {
+
+	@Override
+	public Item findItem(Long itemId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

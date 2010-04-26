@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.math.BigDecimal"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="javax.swing.filechooser.FileSystemView"/>
+<fullyQualifiedTypeName name="java.nio.channels.FileChannel"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.awt.image.BufferStrategy"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="batchprocessor.internal.ProcessOrders"/>
+<fullyQualifiedTypeName name="inventory.internal.InventoryServiceImpl"/>
+<fullyQualifiedTypeName name="org.osgi.framework.ServiceRegistration"/>
+<fullyQualifiedTypeName name="order.internal.OrderServiceImpl"/>
+<fullyQualifiedTypeName name="inventory.InventoryService"/>
+<fullyQualifiedTypeName name="org.osgi.framework.ServiceReference"/>
+<fullyQualifiedTypeName name="order.OrderService"/>
+<fullyQualifiedTypeName name="order.Receipt"/>
+</qualifiedTypeNameHistroy>

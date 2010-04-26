@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>IllegalTransactionStateException</Summary><SampleLogOutput><![CDATA[IllegalTransactionStateException]]></SampleLogOutput><RegExpPattern><![CDATA[IllegalTransactionStateException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Exception thrown when the existence or non-existence of a transaction
+ amounts to an illegal state according to the transaction propagation
+ behavior that applies.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

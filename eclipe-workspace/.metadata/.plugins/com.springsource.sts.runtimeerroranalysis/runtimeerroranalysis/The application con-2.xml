@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>The application context file cannot be found. </Summary><AuthorTermsAccepted>true</AuthorTermsAccepted><SampleLogOutput><![CDATA[Exception in thread "main" org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [com/hggfd/example/context.xml]; nested exception is java.io.FileNotFoundException: class path resource [com/hggfd/example/context.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:320)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:142)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:158)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:184)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:112)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:79)]]></SampleLogOutput><RegExpPattern><![CDATA[Exception in thread "main" org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource \[(.*)\]; nested exception is java.io.FileNotFoundException: class path resource \[(.*)\] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions\(.*\)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions\(.*\)
+]]></RegExpPattern><ProblemDetailHtml><![CDATA[The application context configuration file $1 cannot be found. You're probably loading the application context configuration in a unit test, a main class or a web application.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[If you have just run a unit test, look for the place where you have loaded the configuration file. The location you have specified ($1) cannot be found and probably does not exist.
+
+For JUnit 3, the class in which you're trying to load the application context file might look like this:
+<pre>
+	public class MyTest extends AbstractDependencyInjectionSpringContextTests {
+	    public String[] getConfigLocations() {
+	        return new String[] { "$1" };
+	    }
+	}
+</pre>
+
+In JUnit 4 the class in which you're trying to load the application context file might look like this:
+<pre>
+	@ContextConfiguration(locations={"$1"})
+	public class MyTest { ... }
+</pre>
+
+In case you are running a main class, the code where you're loading an application context might look like this:
+<pre>
+	new ClassPathXmlApplicationContext("$1");
+</pre>
+
+Or, if you're loading an application context in a web application, you can try to look for <code>web.xml</code> and more specifically, the <code>contextConfiguration</code> parameter (either defined alongside a servlet or as a <code>context-init-param</code>:
+
+<pre>
+	&lt;context-init-param&gt;
+	    &lt;param-name&gt;contextConfigurationLocation&lt;/param-name&gt;
+	    &lt;param-value&gt;$1&lt;/param-value&gt;
+	&lt;/context-init-param&gt;
+</pre>
+]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

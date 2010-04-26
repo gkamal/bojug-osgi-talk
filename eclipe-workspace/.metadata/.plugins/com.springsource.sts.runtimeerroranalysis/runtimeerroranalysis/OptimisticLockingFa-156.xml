@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>OptimisticLockingFailureException</Summary><SampleLogOutput><![CDATA[OptimisticLockingFailureException]]></SampleLogOutput><RegExpPattern><![CDATA[OptimisticLockingFailureException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Exception thrown on an optimistic locking violation.
+
+ <p>This exception will be thrown either by O/R mapping tools
+ or by custom DAO implementations. Optimistic locking failure
+ is typically <i>not</i> detected by the database itself.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>BadSqlGrammarException</Summary><SampleLogOutput><![CDATA[BadSqlGrammarException]]></SampleLogOutput><RegExpPattern><![CDATA[BadSqlGrammarException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Exception thrown when SQL specified is invalid. Such exceptions always have
+ a <code>java.sql.SQLException</code> root cause.
+
+ <p>It would be possible to have subclasses for no such table, no such column etc.
+ A custom SQLExceptionTranslator could create such more specific exceptions,
+ without affecting code using this class.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

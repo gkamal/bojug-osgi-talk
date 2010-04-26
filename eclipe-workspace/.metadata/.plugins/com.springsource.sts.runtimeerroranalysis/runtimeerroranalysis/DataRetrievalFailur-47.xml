@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>DataRetrievalFailureException</Summary><SampleLogOutput><![CDATA[DataRetrievalFailureException]]></SampleLogOutput><RegExpPattern><![CDATA[DataRetrievalFailureException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Exception thrown if certain expected data could not be retrieved, e.g.
+ when looking up specific data via a known identifier. This exception
+ will be thrown either by O/R mapping tools or by DAO implementations.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>

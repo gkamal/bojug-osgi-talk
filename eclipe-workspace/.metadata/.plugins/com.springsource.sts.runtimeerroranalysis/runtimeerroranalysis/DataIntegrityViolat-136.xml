@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><RuntimeErrorAnalysis><AuthorAffiliation>Community</AuthorAffiliation><Summary>DataIntegrityViolationException</Summary><SampleLogOutput><![CDATA[DataIntegrityViolationException]]></SampleLogOutput><RegExpPattern><![CDATA[DataIntegrityViolationException]]></RegExpPattern><ProblemDetailHtml><![CDATA[Exception thrown when an attempt to insert or update data
+ results in violation of an integrity constraint. Note that this
+ is not purely a relational concept; unique primary keys are
+ required by most database types.]]></ProblemDetailHtml><SolutionDetailHtml><![CDATA[Common solutions for this exception have not yet been submitted.]]></SolutionDetailHtml><AdditionalResourcesDetailHtml></AdditionalResourcesDetailHtml></RuntimeErrorAnalysis>
