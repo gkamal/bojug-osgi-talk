@@ -1,8 +1,0 @@
-Library-SymbolicName: org.springframework.osgi
-Library-Name: Spring Dynamic Modules
-Library-Version: 1.1.2.B
-Import-Bundle: 
- org.springframework.osgi.core;version="[1.1.2.B, 1.1.2.B]",
- org.springframework.osgi.extender;version="[1.1.2.B, 1.1.2.B]",
- org.springframework.osgi.io;version="[1.1.2.B, 1.1.2.B]",
- org.springframework.osgi.web;version="[1.1.2.B, 1.1.2.B]"
