@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move 1 elements(s) to &apos;order/src/order.internal&apos;&#x0A;- Original project: &apos;order&apos;&#x0A;- Destination element: &apos;order/src/order.internal&apos;&#x0A;- Original element: &apos;order.Activator.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;order.internal" element1="/src&lt;order{Activator.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1272098292810" units="1" version="1.0"/>
-</session>

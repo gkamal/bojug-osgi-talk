@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map>
-	<bundle bundleID="3" localization="plugin" name="%osgiUtil" provider="%eclipse.org"/>
-	<bundle bundleID="2" class="org.eclipse.osgi.framework.internal.core.SystemBundleActivator" hasExtensibleAPI="true" localization="systembundle" name="%systemBundle" provider="%eclipse.org"/>
-	<bundle bundleID="1" localization="plugin" name="%osgiServices" provider="%eclipse.org"/>
-</map>

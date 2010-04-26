@@ -1,5 +1,0 @@
-package inventory;
-
-public interface InventoryService {
-
-}
